@@ -13,20 +13,4 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-
-  var form = document.querySelector("#contact-form");
-  var successMsg = document.querySelector("#form-success");
-
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      // NOTE: this form has no backend wired up yet.
-      // Connect it to a form service (e.g. Formspree, Netlify Forms)
-      // or your own endpoint to actually receive submissions.
-      if (successMsg) {
-        successMsg.classList.add("visible");
-      }
-      form.reset();
-    });
-  }
 });

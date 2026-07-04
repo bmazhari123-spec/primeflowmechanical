@@ -143,8 +143,6 @@ img { max-width: 100%; display: block; }
 
 .logo img { width: 38px; height: 38px; }
 
-.logo span { color: var(--blue-darker); }
-
 .nav {
   display: flex;
   align-items: center;
