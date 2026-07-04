@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | Primeflow Mechanical</title>
-<meta name="description" content="Contact Primeflow Mechanical in North Vancouver, BC for residential and commercial plumbing and heating services. Call (778) 855-1354.">
+<meta name="description" content="Contact Primeflow Mechanical, serving North Vancouver, BC and the Lower Mainland, for residential and commercial plumbing, gas, and heating services. Call (778) 855-1354.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +13,9 @@
 </head>
 <body>
 
-<!-- TODO: this form does not send anywhere yet. Wire it up to a form
-     backend (e.g. Formspree, Netlify Forms) or your own endpoint,
-     and confirm/update the email address below before publishing. -->
+<!-- Form submissions go to primeflowmechanical@gmail.com via FormSubmit.co.
+     The first-ever submission triggers a one-time confirmation email
+     that must be clicked to activate delivery. -->
 
 <header class="site-header">
   <div class="container">
@@ -27,6 +27,8 @@
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
@@ -72,7 +74,16 @@
               </div>
               <div>
                 <strong>Service Area</strong>
-                <span>North Vancouver, BC</span>
+                <span>North Vancouver, BC &amp; the Lower Mainland</span>
+              </div>
+            </li>
+            <li>
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <span>8:00 AM &ndash; 6:00 PM</span>
               </div>
             </li>
             <li>
@@ -93,7 +104,7 @@
 
       <div class="form-card">
         <h3>Request a Quote</h3>
-        <form id="contact-form" action="https://formsubmit.co/bmazhari123@gmail.com" method="POST">
+        <form id="contact-form" action="https://formsubmit.co/primeflowmechanical@gmail.com" method="POST">
           <input type="hidden" name="_subject" value="New quote request - Primeflow Mechanical website">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="false">
@@ -119,8 +130,8 @@
               <option value="drain">Drain Cleaning</option>
               <option value="water-heater">Water Heater</option>
               <option value="pipe">Pipe Repair</option>
+              <option value="gas">Gas Fitting</option>
               <option value="heating">Furnace / Heating</option>
-              <option value="emergency">Emergency Plumbing</option>
               <option value="commercial">Commercial Plumbing</option>
               <option value="other">Other</option>
             </select>
@@ -145,13 +156,15 @@
           <img src="assets/favicon.svg" alt="Primeflow Mechanical logo" width="30" height="30">
           Primeflow Mechanical
         </div>
-        <p>Residential &amp; commercial plumbing and heating services in North Vancouver, BC.</p>
+        <p>Licensed &amp; insured, Red Seal certified plumbing, gas &amp; heating services across the Lower Mainland.</p>
       </div>
       <div>
         <h4>Quick Links</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -161,7 +174,7 @@
         <ul>
           <li><a href="services.html">Drain Cleaning</a></li>
           <li><a href="services.html">Water Heaters</a></li>
-          <li><a href="services.html">Heating Systems</a></li>
+          <li><a href="services.html">Gas Fitting</a></li>
           <li><a href="services.html">Commercial Plumbing</a></li>
         </ul>
       </div>
@@ -173,15 +186,23 @@
             <a href="tel:+17788551354">(778) 855-1354</a>
           </li>
           <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 6c0-1.1-.9-2-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2z"></path><polyline points="22 6 12 13 2 6"></polyline></svg>
+            <a href="mailto:primeflowmechanical@gmail.com">primeflowmechanical@gmail.com</a>
+          </li>
+          <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            <span>North Vancouver, BC</span>
+            <span>North Vancouver, BC &bull; Lower Mainland</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>8:00 AM &ndash; 6:00 PM</span>
           </li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year"></span> Primeflow Mechanical Ltd. All rights reserved.</span>
-      <span>Plumbing &amp; Heating &bull; Residential &amp; Commercial</span>
+      <span>Plumbing, Gas &amp; Heating &bull; Residential &amp; Commercial</span>
     </div>
   </div>
 </footer>
